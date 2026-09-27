@@ -1,6 +1,8 @@
 # 🪙 Bitcoin Sentiment Analysis - Decision Support System
 
-A machine learning-powered Decision Support System that predicts Bitcoin price movements by analyzing Twitter sentiment with **95.78% accuracy**.
+A machine learning Decision Support System that analyses Bitcoin tweet sentiment (**95.78% sentiment classification accuracy** with a BiLSTM) and studies how sentiment relates to next-day price direction.
+
+Team project at Blekinge Institute of Technology (BTH). **Team:** Muhammad Asif Khan and Syeda Sara Afzaal.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
@@ -13,7 +15,8 @@ This project implements a complete Decision Support System that:
 - Analyzes **49,921 Bitcoin-related tweets** for sentiment
 - Predicts cryptocurrency price movements (UP/DOWN)
 - Compares **3 different machine learning approaches**
-- Achieves **95.78% accuracy** using LSTM neural networks
+- Achieves **95.78% sentiment classification accuracy** using a BiLSTM
+- Finds that price volatility and trading volume predict next-day direction far better than sentiment
 
 **Use Cases:** Trading signal generation, market sentiment monitoring, investment decision support, cryptocurrency market analysis.
 
@@ -124,7 +127,7 @@ pip package manager
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/sawraw404/SentimentAnalysis_Bitcoin_Tweets.git
+git clone https://github.com/Asif-Khan-01/SentimentAnalysis_Bitcoin_Tweets.git
 cd SentimentAnalysis_Bitcoin_Tweets
 ```
 
@@ -452,13 +455,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 Author
+## 👥 Team
+
+**Muhammad Asif Khan**
+- 🐙 GitHub: [@Asif-Khan-01](https://github.com/Asif-Khan-01)
+- 💼 LinkedIn: https://www.linkedin.com/in/muhammad-asif-khan-3076801bb
 
 **Syeda Sara Afzaal**
-
 - 🐙 GitHub: [@sawraw404](https://github.com/sawraw404)
 - 💼 LinkedIn: https://www.linkedin.com/in/sara-afzaal-0b6690297/
-- 📧 Email: ssa2501ra@gmail.com
+
+Original repository: [sawraw404/SentimentAnalysis_Bitcoin_Tweets](https://github.com/sawraw404/SentimentAnalysis_Bitcoin_Tweets)
 
 ---
 
@@ -498,9 +505,8 @@ If you found this project helpful or interesting:
 ## 📧 Contact & Support
 
 **Questions or suggestions?**
-- Open an [Issue](https://github.com/sawraw404/SentimentAnalysis_Bitcoin_Tweets/issues)
-- Start a [Discussion](https://github.com/sawraw404/SentimentAnalysis_Bitcoin_Tweets/discussions)
-- Email me directly
+- Open an [Issue](https://github.com/Asif-Khan-01/SentimentAnalysis_Bitcoin_Tweets/issues)
+- Start a [Discussion](https://github.com/Asif-Khan-01/SentimentAnalysis_Bitcoin_Tweets/discussions)
 
 **Looking for collaborators?**
 - Data scientists interested in financial ML
